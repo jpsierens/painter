@@ -1,3 +1,6 @@
+Painter
+==================
+
 Painter is a chrome extension which adds the ability to use a drawing pad right in your browser without leaving your current page.
 
 How to use:
