@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Painter for web.whatsapp</title>
+    <link rel="stylesheet" href="css/painter.css">
+  </head>
+  <body>
+    <div id="status"></div>
+    <!-- The canvas -->
+    <section id="paint-container">
+      <button id="btnClear">Clear</button>
+      <canvas id="painter" width="720" height="400"></canvas>
+      <nav id="painter-ui">
+        <span id="black" class="picker"></span>
+        <span id="white" class="picker"></span>
+        <span id="gray" class="picker"></span>
+        <span id="red" class="picker"></span>
+        <span id="green" class="picker"></span>
+        <span id="blue" class="picker"></span>
+        <span id="yellow" class="picker"></span>
+        <span id="brown" class="picker"></span>
+        <span id="purple" class="picker"></span>
+      </nav>
+      <button id="btnSave">Save</button>
+    </section>
+    <span>Note: After clicking save, the image will be opened in a new window. You can then right click the image and select 'save image as' to save it to your disk.</span>
+
+    <!-- scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/painter.js"></script>
+  </body>
+</html>
+

@@ -1,0 +1,57 @@
+button {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+canvas {
+  display: block;
+  margin-bottom: 10px;
+  border: 1px solid;
+  cursor: url(cursor.png), auto;
+  border-radius: 10px;
+}
+.picker {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.picker:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px 1px #333;
+}
+.picker:active {
+  -webkit-box-shadow: 0px 3px 7px 2px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 7px 2px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 7px 2px rgba(0,0,0,0.75);
+}
+#black {
+  background-color: #000;
+}
+#white {
+  background-color: #fff;
+}
+#gray {
+  background-color: #888;
+}
+#red {
+  background-color: #DB4921;
+}
+#green {
+  background-color: #23CC2E;
+}
+#blue {
+  background-color: #3848C7;
+}
+#yellow {
+  background-color: #EDED45;
+}
+#brown {
+  background-color: #C9A630;
+}
+#purple {
+  background-color: #AC47B5;
+}
